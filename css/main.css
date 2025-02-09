@@ -3479,7 +3479,7 @@ html.no-csstransitions .home-content__main {
     padding-bottom: 21rem;
     text-align: center;
     position: relative;
-    background-image: url(../images/hero-bg1.png);
+    background-image: url(../images/hero-bg1_compressed.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
