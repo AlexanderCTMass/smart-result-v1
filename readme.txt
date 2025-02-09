@@ -2,7 +2,7 @@
 
 DESCRIPTION:
 
-SUBLIME is a Creative HTML5 one-page template designed for creative agencies, studios, digital 
+Smart Result is a Creative HTML5 one-page template designed for creative agencies, studios, digital
 design and media agencies or other similar business. The template is a dark theme design with 
 features like fullscreen header/hero section, responsive video lightbox, a nice portfolio section 
 and much more. The template is primarily designed for creative agencies but it is versatile enough 
@@ -68,7 +68,7 @@ Also, keep your Paypal receipt as proof of payment and your good to go.
 
 SUPPORT:
     
-Since SUBLIME is distributed for free, support is not offered. SUBLIME is coded according 
+Since Smart Result is distributed for free, support is not offered. Smart Result is coded according
 to current web standards and we did our best to make the template easy to use and modify.
 If you have minimum web development experience, you can easily modify the template. 
 However, If you're still new to HTML and CSS, I suggest that you visit the 
