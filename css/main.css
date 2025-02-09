@@ -3020,6 +3020,12 @@ html.no-csstransitions .home-content__main {
         font-size: 4.2rem;
     }
 
+    .item-service:hover .item-service__icon {
+        color: #2F235D;
+        scale: 1;
+        transition: all 500ms;
+    }
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -3088,6 +3094,7 @@ html.no-csstransitions .home-content__main {
     background-color: rgba(0, 0, 0, 0.9);
     background-image: url(../images/pattern.jpg);
     background-size: 760px 380px;
+    z-index: -2;
 }
 
 /* ------------------------------------------------------------------- 

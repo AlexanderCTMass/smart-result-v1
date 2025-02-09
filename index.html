@@ -47,7 +47,7 @@
 <header class="s-header">
 
     <div class="header-logo">
-        <a class="site-logo" href="old.html">
+        <a class="site-logo" href="index.html">
             <img src="images/logo.png" alt="Homepage">
         </a>
     </div> <!-- end header-logo -->
@@ -327,8 +327,8 @@
 ================================================== -->
 <section class="s-testimonials">
     <div class="video-bg">
-        <video autoplay muted loop playsinline>
-            <source src="images/video-bg.mp4" type="video/mp4">
+        <video autoplay muted loop playsinline preload="none" poster="images/hero-bg1.png">
+            <source data-src="images/video-bg.mp4" type="video/mp4">
             Ваш браузер не поддерживает видео.
         </video>
         <div class="video-overlay"></div>
@@ -510,6 +510,14 @@
         mouseControls: true,
         touchControls: true,
         forceRender: true // Принудительно обновляет рендер
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+        let video = document.querySelector("video");
+        let source = video.querySelector("source");
+
+        // Заменяем `data-src` на `src`, когда страница загружена
+        source.src = source.dataset.src;
+        video.load();
     });
 </script>
 
